@@ -1,0 +1,67 @@
+body {
+    color: rgb(213, 226, 231)
+}
+
+#mapapp {
+    height: 95vh;
+}
+
+#mapapp-menu {
+    height: 8.5vh;
+    
+  }
+
+#mapapp-content {
+    height: 83vh;
+}
+
+.basemap-gallery .active, .basemap-gallery img:hover {
+    filter: none;
+}
+
+.basemap-gallery img {
+    filter: grayscale();
+}
+
+#mapapp-sidebar {
+    position: absolute;
+    right: 0vh;
+    z-index: 99999;
+    background-color: #607785;
+    height: 54vh;
+  }
+
+#foniniaizemelapiai {
+    position: absolute;
+    z-index: 2;
+  }
+
+  #teminiaiduomenys {
+    position: absolute;
+    z-index: 2;
+  
+  }
+
+ .collapse {
+    position: fixed;
+    
+  }
+
+.navbar{
+  --bs-navbar-padding-y: 0.75vh;
+}
+
+#mapmenu.container-fluid {
+  --bs-gutter-x: 0;
+}
+
+table, th, td {
+  border: 1.5px solid  #2f4758;
+  text-align: left;
+  padding: 8px;
+}
+
+.modal-body{
+  height: 55vh;
+  overflow-y: auto;
+}
