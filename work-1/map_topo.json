@@ -178,7 +178,7 @@
       "minzoom": 6,
       "filter": ["all", ["in", "kind", "industrial"]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(122, 115, 141, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(122, 115, 141, 0.68)", "fill-opacity": 1}
     },
     {
       "id": "landuse-allotments",
@@ -422,8 +422,8 @@
         },
         "fill-color": {
           "stops": [
-            [13, "rgba(251, 247, 244, 1)"],
-            [20, "rgba(201, 162, 138, 1)"]
+            [13, "rgba(150, 131, 121, 1)"],
+            [20, "rgba(78, 63, 53, 1)"]
           ]
         }
       }
@@ -932,7 +932,8 @@
         "symbol-placement": "line",
         "visibility": "visible"
       },
-      "paint": {}
+      "paint": {
+        "text-color": "rgba(102, 102, 102, 1)"}
     },
     {
       "id": "label-national-park",

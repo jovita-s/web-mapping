@@ -165,9 +165,9 @@
       "minzoom": 9,
       "paint": {
         "hillshade-exaggeration": 0.5,
-        "hillshade-shadow-color": "rgba(232, 134, 44, 1)",
-        "hillshade-highlight-color": "rgba(188, 17, 74, 0.83)",
-        "hillshade-accent-color": "rgba(246, 177, 59, 1)"
+        "hillshade-shadow-color": "rgba(96, 3, 31, 0.89)",
+        "hillshade-highlight-color": "rgba(195, 154, 62, 0.83)",
+        "hillshade-accent-color": "rgba(106, 72, 57, 1)"
       }
     },
     {
@@ -273,7 +273,7 @@
       "filter": ["==", "$type", "Polygon"],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(240, 214, 190, 1)",
+        "fill-color": "rgba(117, 27, 74, 0.31)",
         "fill-outline-color": "rgba(221, 145, 73, 1)",
         "fill-antialias": false
       }
@@ -303,7 +303,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgba(239, 207, 177, 1)",
+        "line-color": "rgba(148, 6, 99, 0.1)",
         "line-width": {"base": 1.4, "stops": [[8, 0.5], [20, 15]]}
       }
     },
@@ -1451,7 +1451,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "#111111",
+        "line-color": "rgba(190, 120, 42, 1)",
         "line-width": {"base": 1.55, "stops": [[5, 2.3], [20, 40]]}
       }
     },
@@ -1485,7 +1485,7 @@
       ],
       "layout": {"line-join": "round", "line-cap": "round"},
       "paint": {
-        "line-color": "rgba(169, 78, 5, 1)",
+        "line-color": "rgba(231, 144, 78, 1)",
         "line-width": {"base": 1.55, "stops": [[5, 1.5], [20, 25]]}
       }
     },
@@ -1688,7 +1688,7 @@
         "text-max-angle": 80
       },
       "paint": {
-        "text-color": "rgba(206, 135, 68, 1)",
+        "text-color": "rgba(105, 2, 22, 0.64))",
         "text-halo-color": "rgba(245, 241, 241, 1)",
         "text-halo-blur": 2,
         "text-halo-width": 1
@@ -1714,9 +1714,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(199, 123, 51, 1)",
+        "text-color": "rgba(105, 2, 22, 0.64)",
         "text-halo-color": "rgba(245, 241, 241, 1)",
-        "text-halo-width": 2,
+        "text-halo-width": 1,
         "text-halo-blur": 2
       }
     },
@@ -1878,9 +1878,9 @@
         "text-size": 14
       },
       "paint": {
-        "text-color": "rgba(230, 171, 92, 1)",
-        "text-halo-width": 1.5,
-        "text-halo-color": "rgba(255, 255, 255, 0.64)"
+        "text-color": "rgba(255, 255, 255, 1)",
+        "text-halo-width": 1,
+        "text-halo-color": "rgba(97, 5, 23, 0.57)"
       }
     },
     {

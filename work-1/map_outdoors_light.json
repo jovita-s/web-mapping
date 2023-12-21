@@ -1323,7 +1323,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "#111111",
+        "line-color": "rgba(153, 146, 146, 1)",
         "line-width": {"base": 1.55, "stops": [[5, 2.3], [20, 40]]}
       }
     },
@@ -1357,7 +1357,7 @@
       ],
       "layout": {"line-join": "round", "line-cap": "round"},
       "paint": {
-        "line-color": "#882a30",
+        "line-color": "rgba(189, 181, 171, 1)",
         "line-width": {"base": 1.55, "stops": [[5, 1.5], [20, 25]]}
       }
     },
@@ -1456,7 +1456,8 @@
         "text-offset": [0, -0.5],
         "symbol-placement": "line"
       },
-      "paint": {}
+      "paint": {
+        "text-color": "rgba(137, 131, 121, 1)"}
     },
     {
       "id": "label-park",
