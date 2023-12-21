@@ -1688,7 +1688,7 @@
         "text-max-angle": 80
       },
       "paint": {
-        "text-color": "rgba(105, 2, 22, 0.64))",
+        "text-color": "rgba(105, 2, 22, 0.64)",
         "text-halo-color": "rgba(245, 241, 241, 1)",
         "text-halo-blur": 2,
         "text-halo-width": 1
